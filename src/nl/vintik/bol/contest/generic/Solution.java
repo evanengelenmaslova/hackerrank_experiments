@@ -15,6 +15,7 @@ public class Solution {
             input2 = Integer.parseInt(lineParams[1]);
             doIt(input1, input2);
         }
+        bi.close();
     }
 
     private static String[] getSplitLine(BufferedReader bi) throws IOException {

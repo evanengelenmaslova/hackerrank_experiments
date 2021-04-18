@@ -38,6 +38,7 @@ public class Solution {
             }
 
         }
+        bi.close();
     }
 
     private static String[] getSplitLine(BufferedReader bi) throws IOException {
